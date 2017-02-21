@@ -7,7 +7,7 @@ ChiMerger consists 4 basic step:
  1. Sort the data in ascending order.
  2. Define initial intervals so that every value is in a separate interval.
  3. Calculate the X<sup>2</sup> of any two adjacent intervals .
- 4. Find the smallest X^2, and merge the intervals who own the X^2
- 5. Repeat 3&4 steps until all the X<sup>2</sup> is larger than threshold value.
+ 4. Find the smallest X<sup>2</sup>, and merge the intervals who own the X<sup>2</sup>
+ 5. Repeat 3 & 4 steps until all the X<sup>2</sup> is larger than threshold value.
 
 The project use iris data as example, you can get the data from https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
